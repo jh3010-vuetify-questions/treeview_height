@@ -28,3 +28,21 @@ export default {
   }),
 };
 </script>
+
+<style scoped>
+
+.v-application ::v-deep {
+    #contentView {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .v-window.v-item-group {
+    flex-grow: 1;
+    }
+
+    .v-window__container {
+    height: 100%;
+    }
+}
