@@ -105,11 +105,11 @@
   flex-direction: column;
 }
 
-.v-window.v-item-group {
+::v-deep .v-window.v-item-group {
   flex-grow: 1;
 }
 
-.v-window__container {
+::v-deep .v-window__container {
   height: 100%;
 }
 
